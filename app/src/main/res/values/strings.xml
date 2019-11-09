@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">GigitLabu</string>
+    <string name="username_label" translatable="false">username</string>
+    <string name="pat_label" translatable="false">Personal Access Token</string>
+    <string name="username_hint" translatable="false">yourusername</string>
+    <string name="pat_hint" translatable="false">ajshdgf68asdkjhfad7</string>
+    <string name="login_button">Log me in</string>
+    <string name="logout_button">Logout</string>
+    <string name="home_title">Home</string>
+    <string name="commit_title" translatable="false">Commit</string>
+    <string name="profile_title">Profile</string>
+    <string name="view_commit">View Commit</string>
+    <string name="pick_project">Pick your project</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="save_image_button">Save Image</string>
+    <string name="failed_retrieve_avatar">Failed to retrieve avatar</string>
+    <string name="failed_retrieve_project">Failed to retrieve projects</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="failed_create_mediastore_record">Failed to create new MediaStore record.</string>
+    <string name="failed_outputstream">Failed to get output stream</string>
+    <string name="failed_save_bitmap">Failed to save bitmap</string>
+    <string name="avatar_saved">Avatar saved</string>
+    <string name="channel_id" translatable="false">id.ac.ui.ac.mobileprogramming.ilham_darmawan.gigit_labu</string>
+    <string name="channel_description">New commit detected</string>
+    <string name="reminder_title">Have you checked today\'s commit?</string>
+    <string name="reminder_message">Check it out now on GigitLabu</string>
+    <string name="error_making_request">Error making request, please try again later</string>
+    <string name="failed_retrieve_commit">Failed to retrieve commits</string>
+    <string name="commit_empty">No commit yet</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="avatar_saved">Avatar berhasil disimpan</string>
+    <string name="channel_description">Terdapat commit baru</string>
+    <string name="commit_empty">Project tersebut belum memiliki commit</string>
+    <string name="error_making_request">Gagal mengambil data, mohon coba lagi</string>
+    <string name="failed_create_mediastore_record">Gagal membuat record MediaStore baru</string>
+    <string name="failed_outputstream">Gagal mendapatkan output stream</string>
+    <string name="failed_retrieve_avatar">Gagal mengambil avatar</string>
+    <string name="failed_retrieve_commit">Gagal mengambil commit</string>
+    <string name="failed_retrieve_project">Gagal mengambil project</string>
+    <string name="failed_save_bitmap">Gagal menyimpan bitmap</string>
+    <string name="home_title">Beranda</string>
+    <string name="login_button">Masuk</string>
+    <string name="logout_button">Keluar</string>
+    <string name="no_internet_connection">Tidak ada koneksi internet</string>
+    <string name="permission_denied">Izin akses ditolak</string>
+    <string name="pick_project">Pilih project kamu</string>
+    <string name="profile_title">Profil</string>
+    <string name="reminder_message">Cek sekarang di GigitLabu</string>
+    <string name="reminder_title">Apakah kamu sudah mengecek commit hari ini?</string>
+    <string name="save_image_button">Simpan Gambar</string>
+    <string name="view_commit">Lihat Commit</string>
+</resources>
