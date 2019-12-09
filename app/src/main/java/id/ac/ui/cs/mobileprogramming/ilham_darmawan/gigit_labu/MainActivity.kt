@@ -72,8 +72,6 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("active fragment", "${active}")
 
-
-
         supportFragmentManager.beginTransaction()
             .add(R.id.fragment_container, profileFragment, "profile").hide(profileFragment)
             .commit()
@@ -81,8 +79,9 @@ class MainActivity : AppCompatActivity() {
             .add(R.id.fragment_container, commitFragment, "commit").hide(commitFragment)
             .commit()
         supportFragmentManager.beginTransaction()
-            .add(R.id.fragment_container, projectFragment, "project")
+            .add(R.id.fragment_container, projectFragment, "project").hide(projectFragment)
             .commit()
+
         supportFragmentManager.beginTransaction().show(active).commit()
 
 
@@ -98,25 +97,6 @@ class MainActivity : AppCompatActivity() {
         createNotificationChannel()
         setReminder()
 
-    }
-
-
-    override fun onSaveInstanceState(outState: Bundle, outPersistentState: PersistableBundle) {
-        super.onSaveInstanceState(outState, outPersistentState)
-        outState.putInt("activeId", active.id)
-        Log.d("ACTIVE ID", active.id.toString())
-    }
-
-    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
-        super.onRestoreInstanceState(savedInstanceState)
-        val activeId = savedInstanceState.getInt("activeId")
-        if (activeId == profileFragment.id) {
-            active = profileFragment
-        } else if (activeId == commitFragment.id) {
-            active = commitFragment
-        } else {
-            active = projectFragment
-        }
     }
 
     // set daily reminder at 8 AM everyday
